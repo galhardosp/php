@@ -1,0 +1,15 @@
+<?php 
+
+$bd'n8_miniprojeto'
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+
+try {
+    //code...
+} catch (PDOexception $ex) {
+    //throw $th;
+    echo $ex ->getMessage();
+}
+
+?>  
